@@ -9,7 +9,7 @@
     $recipent = "youtbevedios@gmail.com"; 
 
     mail($recipent, $subject, $message, $mailHeader);
-    or die("error!");
+    
 
     echo "meassage sent!";
 ?>
