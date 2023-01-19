@@ -6,7 +6,7 @@
     
     $mailHeader = "From:" .$name. "<" .$email. ">\r\n"; 
 
-    $recipent = "youtbevedios@gamil.com"; 
+    $recipent = "youtbevedios@gmail.com"; 
 
     mail($recipent, $subject, $message, $mailHeader);
     or die("error!");
