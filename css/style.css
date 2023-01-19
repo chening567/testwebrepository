@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fredoka&display=swap');
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: darkgray;
+}
+
+.logoimg {
+    width: 120px;
+    height: fit-content;
+}
+
+h1{ 
+   /* font-family: ; */
+}
+
+#input{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1,h2 { 
+    margin-bottom: 15px;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+.container, .datatable { 
+    grid-template-columns: repeat( 4,250px);
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    
+}
+
+.placeholderevo { 
+
+}
+
+.navbar { 
+    background-color: dimgrey;
+    color: #fff;
+    height: 80px;
+}
+
+.logo { 
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.navbar a { 
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover { 
+    color: lightblue;
+}
+
+.navbar .container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li { 
+    margin-left: 30px;
+}
+
+.placeholderevo { 
+    width: 500px;
+    height: auto;
+    
+}
+.header { 
+    padding: 40px;
+    background-color: #333;
+}
+
+.header .container h1, p { 
+    color: #fff;
+    padding-right: 20px;
+}
+
+.header .container { 
+    display: flex;
+    align-items: center;
+}
+
+.titledata, .howitworks, a {
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+
+.container1  {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.dataheader { 
+    padding: 40px;
+    background-color: #333;
+}
+
+.dataheader, p {
+    color: #fff;
+}
+
+.dataimage { 
+    width: 40%;
+    height: auto;
+}
+
+.header .container { 
+    display: flex;
+    justify-content: space-between;
+}
+.datatable{
+    width: 100%;
+    
+   
+    padding-top: 2%;
+    
+    
+}
+#thinkspeakSpeed {
+    margin: 0 auto;
+    width: 450px; 
+    height: 250px;
+}
+
+@media (max-width: 1000px) {
+    .container{ 
+       flex-direction: column;
+       text-align: center;
+    }
+    .navbar{ 
+        
+        padding-bottom: 5px;
+    }
+    .placeholderevo{ 
+        padding-top: 5%;
+    }
+    h1{ 
+        font-size: large;
+    }
+    p {
+        font-size: small;
+    }
+    
+  
+}
+
