@@ -4,7 +4,7 @@
     $subject = $_POST['forminput2'];
     $message = $_POST['forminput4'];
     
-    $mailHeader = "From:" ,$name, "<" ,$email, ">\r\n"; 
+    $mailHeader = "From:" .$name. "<" .$email. ">\r\n"; 
 
     $recipent = "youtbevedios@gamil.com"; 
 
